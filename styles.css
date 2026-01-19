@@ -1,0 +1,48 @@
+*
+{
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100;
+    margin: 0;
+}
+
+#ucc_logo
+{
+    margin-bottom: 3%;
+    background-color: rgba(red, green, blue, 0.);
+}
+
+#canvas
+{
+    background-color: rgb(243, 243, 243);
+    padding: 2%;
+}
+
+#resume
+{
+    margin: 0 13%;
+    padding: 5%;
+    background-color: white;
+}
+
+.spacing_1
+{
+    margin-bottom: 2%;
+}
+
+.title
+{
+    margin-top: 1%;
+    margin-bottom: 4%;
+    display: flex;
+    justify-content: center;
+}
+
+hr
+{
+    margin-top: 1%;
+}
+
+.bold_1
+{
+    font-weight: bold;
+}
