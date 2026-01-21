@@ -7,8 +7,9 @@
 
 #ucc_logo
 {
+    width: 40%;
+    min-width: 200px;
     margin-bottom: 3%;
-    background-color: rgba(red, green, blue, 0.);
 }
 
 #canvas
@@ -20,8 +21,13 @@
 #resume
 {
     margin: 0 13%;
-    padding: 5%;
     background-color: white;
+}
+
+#content
+{
+    
+    padding: 5%;
 }
 
 .spacing_1
@@ -45,4 +51,40 @@ hr
 .bold_1
 {
     font-weight: bold;
+}
+
+#footer
+{
+    margin-top: 5vh;
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#green, #yellow
+{
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-family: 'century gothic';
+    font-size: small;
+}
+
+#green
+{
+    background-color: #005E00;
+}
+
+#yellow
+{
+    background-color: #787800;
+}
+
+
+@media (max-width: 1024px) {
+    #resume
+    {
+        margin: 0;
+    }
 }
